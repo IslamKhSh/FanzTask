@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="19dp"
+    android:viewportWidth="16"
+    android:viewportHeight="19">
+  <path
+      android:pathData="M4.747,18.22H0.199C0.09,18.22 0,18.13 0,18.022V13.264C0,12.713 0.446,12.264 1,12.264H4.713C4.724,18.348 4.679,18.044 4.747,18.22V18.22Z"
+      android:strokeAlpha="0.32"
+      android:fillColor="#BFB6EB"
+      android:fillType="evenOdd"
+      android:fillAlpha="0.32"/>
+  <path
+      android:pathData="M10.629,7.929V18.022C10.629,18.13 10.539,18.22 10.43,18.22H5.313C5.204,18.22 5.114,18.13 5.114,18.022V7.929C5.114,7.378 5.56,6.928 6.114,6.928H9.632C10.183,6.928 10.629,7.378 10.629,7.929H10.629Z"
+      android:strokeAlpha="0.32"
+      android:fillColor="#BFB6EB"
+      android:fillType="evenOdd"
+      android:fillAlpha="0.32"/>
+  <path
+      android:pathData="M15.743,11.058V18.022C15.743,18.131 15.653,18.221 15.544,18.221H10.992C11.059,18.045 11.014,18.449 11.029,10.057H14.746C15.293,10.057 15.743,10.507 15.743,11.058H15.743Z"
+      android:strokeAlpha="0.32"
+      android:fillColor="#BFB6EB"
+      android:fillType="evenOdd"
+      android:fillAlpha="0.32"/>
+  <path
+      android:pathData="M9.767,3.81C9.718,3.855 9.696,3.922 9.711,3.986L9.917,5.188C9.958,5.417 9.864,5.642 9.681,5.776C9.482,5.919 9.235,5.923 9.047,5.821L7.965,5.256C7.909,5.226 7.837,5.226 7.777,5.256L6.695,5.821C6.492,5.93 6.253,5.911 6.062,5.776C5.874,5.642 5.784,5.417 5.826,5.188L6.032,3.986C6.043,3.922 6.02,3.855 5.975,3.81L5.103,2.955C4.938,2.794 4.881,2.558 4.949,2.341C5.02,2.12 5.207,1.966 5.432,1.933L6.642,1.76C6.71,1.749 6.766,1.708 6.792,1.652L7.335,0.558C7.437,0.348 7.643,0.22 7.871,0.22C8.1,0.22 8.306,0.348 8.407,0.554L8.946,1.648C8.976,1.704 9.033,1.749 9.096,1.757L10.306,1.929C10.535,1.963 10.718,2.12 10.79,2.337C10.861,2.555 10.801,2.791 10.636,2.952L9.767,3.81Z"
+      android:strokeAlpha="0.32"
+      android:fillColor="#BFB6EB"
+      android:fillType="evenOdd"
+      android:fillAlpha="0.32"/>
+</vector>

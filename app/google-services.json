@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1089024978781",
+    "project_id": "fanz-task",
+    "storage_bucket": "fanz-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089024978781:android:3e33c1a0284ecf20c6c2b4",
+        "android_client_info": {
+          "package_name": "com.fanz.task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA95w96k6lK9nL9qeOAxs2gaxBUl-GEayU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

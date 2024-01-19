@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap xmlns:android="http://schemas.android.com/apk/res/android">
+    <key>score01</key>
+    <value>2</value>
+
+    <key>score02</key>
+    <value>4</value>
+
+    <key>score03</key>
+    <value>6</value>
+
+    <key>score04</key>
+    <value>8</value>
+
+    <key>score05</key>
+    <value>10</value>
+
+    <key>score06</key>
+    <value>12</value>
+
+    <key>score07</key>
+    <value>14</value>
+
+    <key>score08</key>
+    <value>16</value>
+
+    <key>score09</key>
+    <value>18</value>
+
+    <key>score10</key>
+    <value>20</value>
+
+    <key>score11</key>
+    <value>22</value>
+
+</defaultsMap>
