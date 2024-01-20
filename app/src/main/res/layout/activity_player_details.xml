@@ -5,17 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    layoutDescription="@xml/activity_player_details_scene"
-    tools:ignore="MotionLayoutInvalidSceneFileReference"
-    tools:context=".details.PlayerDetailsActivity">
+    app:layoutDescription="@xml/activity_player_details_scene"
+    tools:context=".details.PlayerDetailsActivity"
+    tools:ignore="MotionLayoutInvalidSceneFileReference">
 
-    <ImageView
+    <com.alexvasilkov.gestures.views.GestureImageView
         android:id="@+id/player_card"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="36dp"
+        app:gest_doubleTapEnabled="false"
+        app:gest_exitEnabled="false"
+        app:gest_flingEnabled="false"
+        app:gest_panEnabled="false"
+        app:gest_restrictRotation="false"
+        app:gest_rotationEnabled="true"
+        app:gest_zoomEnabled="false"
+        app:gest_fitMethod="none"
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@drawable/salah_card" />
 
@@ -23,9 +29,9 @@
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@id/player_card"
+        android:layout_marginTop="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginTop="24dp">
+        app:layout_constraintTop_toBottomOf="@id/player_card">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

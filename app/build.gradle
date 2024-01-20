@@ -42,4 +42,5 @@ dependencies {
     implementation 'com.google.firebase:firebase-config'
     implementation 'com.google.firebase:firebase-dynamic-links'
     implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.alexvasilkov:gesture-views:2.8.3'
 }

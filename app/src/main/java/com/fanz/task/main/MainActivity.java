@@ -19,7 +19,7 @@ import java.util.Objects;
 public class MainActivity extends AppCompatActivity implements MainView {
 
     private MainPresenter presenter;
-    private int[] plan = {4, 3, 3};
+    private final int[] plan = {4, 3, 3};
 
     private RecyclerView playersRecycler;
 

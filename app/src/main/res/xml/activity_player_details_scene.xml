@@ -6,35 +6,38 @@
 
         <Constraint
             android:id="@id/player_card"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:rotationY="0"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="36dp"
+            android:rotation="0"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" >
-        </Constraint>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
         <Constraint
             android:id="@id/player_card"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="36dp"
+            android:rotation="-90"
             app:layout_constraintEnd_toEndOf="parent"
-            android:rotationY="90"
-            app:layout_constraintStart_toStartOf="parent" >
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
         </Constraint>
     </ConstraintSet>
 
     <Transition
         app:constraintSetEnd="@id/end"
-        app:constraintSetStart="@+id/start">
+        app:constraintSetStart="@+id/start"
+        app:duration="1000">
 
         <OnSwipe
-            app:dragDirection="dragUp"
+            app:dragDirection="dragDown"
             app:touchAnchorId="@+id/scrollView" />
+
     </Transition>
 
 </MotionScene>
