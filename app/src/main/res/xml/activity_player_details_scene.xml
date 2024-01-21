@@ -10,8 +10,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:rotation="0"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:scaleX="1"
+            android:scaleY="1"
             app:layout_constraintTop_toTopOf="parent" />
     </ConstraintSet>
 
@@ -22,11 +22,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:rotation="-90"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-        </Constraint>
+            android:scaleX="0.8"
+            android:scaleY=".8"
+            app:layout_constraintTop_toTopOf="parent"/>
     </ConstraintSet>
 
     <Transition
