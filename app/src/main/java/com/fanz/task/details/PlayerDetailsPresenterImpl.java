@@ -1,7 +1,7 @@
 package com.fanz.task.details;
 
 
-public class PlayerDetailsPresenterImpl implements PlayerDetailsPresenter{
+public class PlayerDetailsPresenterImpl implements PlayerDetailsPresenter {
 
     private PlayerDetailsView view;
 
